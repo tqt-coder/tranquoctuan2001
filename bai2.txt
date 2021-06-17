@@ -1,0 +1,6 @@
+a 100
+cmp al,1b
+jz 11c
+mov ah,6
+int 21
+mov ah,6
